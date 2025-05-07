@@ -1,0 +1,153 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "claude-code@latest": {
+      "last_modified": "2025-04-12T23:59:46Z",
+      "resolved": "github:NixOS/nixpkgs/f6db44a8daa59c40ae41ba6e5823ec77fe0d2124#claude-code",
+      "source": "devbox-search",
+      "version": "0.2.69",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cli48cjpipkx9w2y5hrw6ba98zbwfzcf-claude-code-0.2.69",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cli48cjpipkx9w2y5hrw6ba98zbwfzcf-claude-code-0.2.69"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/33ygywrqlzrvdx6gzkqagvm92zyg7y2a-claude-code-0.2.69",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/33ygywrqlzrvdx6gzkqagvm92zyg7y2a-claude-code-0.2.69"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/00m6vpd0q4s8x21814vswgfnqmi3skbi-claude-code-0.2.69",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/00m6vpd0q4s8x21814vswgfnqmi3skbi-claude-code-0.2.69"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/l6vjbxhcpfsf90xqd365sd2bfqbmbk10-claude-code-0.2.69",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/l6vjbxhcpfsf90xqd365sd2bfqbmbk10-claude-code-0.2.69"
+        }
+      }
+    },
+    "dotnet-sdk@latest": {
+      "last_modified": "2025-04-12T15:53:49Z",
+      "resolved": "github:NixOS/nixpkgs/52d0eded529af34e91df6b2a2bc32eb636637cd2#dotnet-sdk",
+      "source": "devbox-search",
+      "version": "8.0.408",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mn62vfdx51047yl7n0ab41saw03fff2j-dotnet-sdk-wrapped-8.0.408",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mn62vfdx51047yl7n0ab41saw03fff2j-dotnet-sdk-wrapped-8.0.408"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1fic3lanmf1xri1iizmldw7yfr9qid0g-dotnet-sdk-wrapped-8.0.408",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1fic3lanmf1xri1iizmldw7yfr9qid0g-dotnet-sdk-wrapped-8.0.408"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/plfyx91wf039c3zcgsk2jigklwlynjc7-dotnet-sdk-wrapped-8.0.408",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/plfyx91wf039c3zcgsk2jigklwlynjc7-dotnet-sdk-wrapped-8.0.408"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yjg0bi4zf6f15kv11xcyq9f0wkw9c8ai-dotnet-sdk-wrapped-8.0.408",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yjg0bi4zf6f15kv11xcyq9f0wkw9c8ai-dotnet-sdk-wrapped-8.0.408"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-04-13T09:22:33Z",
+      "resolved": "github:NixOS/nixpkgs/18dd725c29603f582cf1900e0d25f9f1063dbf11?lastModified=1744536153&narHash=sha256-awS2zRgF4uTwrOKwwiJcByDzDOdo3Q1rPZbiHQg%2FN38%3D"
+    },
+    "omnisharp-roslyn@latest": {
+      "last_modified": "2025-04-12T15:53:49Z",
+      "resolved": "github:NixOS/nixpkgs/52d0eded529af34e91df6b2a2bc32eb636637cd2#omnisharp-roslyn",
+      "source": "devbox-search",
+      "version": "1.39.13",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yywcjw6ysc5dvy334r1kn11giw9j9jvf-omnisharp-roslyn-1.39.13",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yywcjw6ysc5dvy334r1kn11giw9j9jvf-omnisharp-roslyn-1.39.13"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p99089kjj2c9wlmzzad49d6n6aj5hikd-omnisharp-roslyn-1.39.13",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/p99089kjj2c9wlmzzad49d6n6aj5hikd-omnisharp-roslyn-1.39.13"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ig6l66aliss1yj7gqnzaj0h4zb7zhdh8-omnisharp-roslyn-1.39.13",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ig6l66aliss1yj7gqnzaj0h4zb7zhdh8-omnisharp-roslyn-1.39.13"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d435qp1fk2fdyl48svmxjl4dg1kcqmr9-omnisharp-roslyn-1.39.13",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d435qp1fk2fdyl48svmxjl4dg1kcqmr9-omnisharp-roslyn-1.39.13"
+        }
+      }
+    }
+  }
+}
