@@ -1,6 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, dotnet on linux with helix editor!");
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using ModelContextProtocol;
+using System.Net.Http.Headers;
 
-Console.WriteLine("File watcher working...");
+var builder = Host.CreateEmptyApplicationBuilder(settings: null);
 
-Console.WriteLine("derp");
+builder.Services.AddMcpServer()
+    .WithStdioServerTransport()
+    .WithToolsFromAssembly();
+
+builder.Services.AddSingleton(_ =>
+{
+    var client = new HttpClient() { BaseAddress = new Uri("https://api.weather.gov") };
+    client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("weather-tool", "1.0"));
+    return client;
+});
+
+var app = builder.Build();
+
+await app.RunAsync();
